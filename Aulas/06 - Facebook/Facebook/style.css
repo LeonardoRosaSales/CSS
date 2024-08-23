@@ -1,0 +1,143 @@
+:root {
+    /* Definição das variáveis de cor */
+    --color-white: white; /* Branco */
+    --color-gray: #f0f2f5; /* Cinza claro */
+    --color-gray2: #dddfe2; /* Cinza claro 2 */
+    --color-dark: #1d2129; /* Cinza escuro */
+    --color-blue: #1b74e4; /* Azul */
+    --color-blue2: #05377d; /* Azul escuro */
+    --color-green: #42b72a; /* Verde */
+    --color-green2: #187605; /* Verde escuro */
+}
+
+body {
+    /* Estilos para o corpo do documento */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    background-color: var(--color-gray); /* Cor de fundo */
+    display: flex; /* Flex container */
+    justify-content: center; /* Centraliza no eixo horizontal */
+    align-items: center; /* Centraliza no eixo vertical */
+    height: 90vh; /* Altura 90% da altura da janela */
+}
+
+.content {
+    /* Estilos para a div com a classe "content" */
+    display: flex; /* Flex container */
+    justify-content: space-around; /* Distribuição uniforme dos itens */
+    align-items: center; /* Centraliza no eixo vertical */
+    flex-wrap: wrap; /* Quebra de linha */
+    width: 70vw; /* Largura 70% da largura da janela */
+}
+
+.content-info {
+    /* Estilos para a div com a classe "content-info" */
+    width: 600px; /* Largura fixa */
+}
+
+.content-login {
+    /* Estilos para a div com a classe "content-login" */
+    width: 350px; /* Largura fixa */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Coluna */
+    align-items: center; /* Centraliza no eixo vertical */
+    gap: 1rem; /* Espaçamento entre os elementos */
+}
+
+.content-login-box {
+    /* Estilos para a div com a classe "content-login-box" */
+    background-color: var(--color-white); /* Cor de fundo */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Coluna */
+    align-items: center; /* Centraliza no eixo vertical */
+    gap: 1rem; /* Espaçamento entre os elementos */
+    padding: 1rem; /* Preenchimento */
+    width: 100%; /* Largura 100% */
+    border-radius: 8px; /* Raio da borda */
+    box-shadow: rgb(0, 0, 0 /10%) 0px 2px 4px, rgb(0, 0, 0 /10%) 0px 8px 16px; /* Sombra */
+}
+
+.inputs {
+    /* Estilos para os inputs */
+    padding: 15px; /* Preenchimento */
+    height: 22px; /* Altura */
+    border-radius: 6px; /* Raio da borda */
+    border: 1px solid var(--color-gray2); /* Borda */
+    outline: none; /* Sem contorno */
+    width: 90%; /* Largura 90% */
+    font-size: 17px; /* Tamanho da fonte */
+    color: var(--color-dark); /* Cor do texto */
+}
+
+.inputs:focus {
+    /* Estilos para inputs quando estão em foco */
+    border-color: var(--color-blue); /* Cor da borda */
+    box-shadow: 0 0 0 2px var(--color-gray2); /* Sombra */
+}
+
+.btn {
+    /* Estilos para botões */
+    padding: 15px; /* Preenchimento */
+    border: none; /* Sem borda */
+    color: var(--color-white); /* Cor do texto */
+    border-radius: 5px; /* Raio da borda */
+    width: 100%; /* Largura 100% */
+    font-size: 1.1rem; /* Tamanho da fonte */
+    transition: .2s; /* Transição */
+    cursor: pointer; /* Cursor */
+}
+
+a {
+    /* Estilos para links */
+    color: var(--color-blue); /* Cor do texto */
+    text-decoration: none; /* Sem decoração */
+    cursor: pointer; /* Cursor */
+}
+
+a:hover {
+    /* Estilos para links quando estão em hover */
+    text-decoration: underline; /* Decoração de sublinhado */
+}
+
+hr {
+    /* Estilos para a linha horizontal */
+    width: 100%; /* Largura 100% */
+    border: 1px solid var(--color-gray); /* Borda */
+}
+
+p {
+    /* Estilos para parágrafos */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.btn-enter {
+    /* Estilos para o botão de entrar */
+    background-color: var(--color-blue); /* Cor de fundo */
+}
+
+.btn-enter:hover {
+    /* Estilos para o botão de entrar quando está em hover */
+    background-color: var(--color-blue2); /* Cor de fundo */
+}
+
+.btn-create-account {
+    /* Estilos para o botão de criar conta */
+    background-color: var(--color-green); /* Cor de fundo */
+    width: auto; /* Largura automática */
+}
+
+.btn-create-account:hover {
+    /* Estilos para o botão de criar conta quando está em hover */
+    background-color: var(--color-green2); /* Cor de fundo */
+}
+
+h1 {
+    /* Estilos para o cabeçalho de nível 1 */
+    color: var(--color-blue); /* Cor do texto */
+    font-size: 4rem; /* Tamanho da fonte */
+}
+
+h3 {
+    /* Estilos para o cabeçalho de nível 3 */
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+img:not(:hover){
+    filter: grayscale(100%);
+}
+.galeria{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+    width: 600px;
+    display: grid;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9";
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+    height: 267px;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+    height: 272px;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+    height: 272px;
+}

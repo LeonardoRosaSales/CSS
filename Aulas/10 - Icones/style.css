@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(24, 22, 22);
+    height: 900px; 
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxMain {
+    background-color: white;
+    height: 300px;
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+}
+.boxMain:hover {
+    height: 600px;
+    transition: all 0.50s ease-in-out;
+}
+.box1{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    box-shadow:  
+    15px 15px 15px 15px #f0f,
+    15px 15px 15px 15px #0b07e9,
+    15px 15px 15px 15px #07cfe9,
+    15px 15px 15px 15px #f0f;
+}
+.box2{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+.box3{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+img{
+    text-align: center;
+    height: 120px;
+    margin: 90px;
+}
+p{
+    background-color: aliceblue;
+    margin: 10px 30px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border-style: dotted;
+    position: relative;
+    right: 80px;
+}

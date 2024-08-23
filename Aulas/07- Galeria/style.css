@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  /* Define o modelo de caixa como border-box para todas as tags */
+}
+
+body {
+  background-color: #131313;
+  /* Cor de fundo do corpo */
+  margin: 0;
+  /* Margem zero */
+  padding: 0;
+  /* Preenchimento zero */
+  top: 0;
+  /* Alinhamento ao topo */
+  justify-content: center;
+  /* Centralização horizontal */
+  align-items: center;
+  /* Centralização vertical */
+}
+
+h1 {
+  text-align: center;
+  /* Alinhamento do texto centralizado */
+  display: grid;
+  /* Define um grid layout */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Fonte */
+  font-size: 3em;
+  /* Tamanho da fonte */
+  color: antiquewhite;
+  /* Cor do texto */
+  letter-spacing: 5px;
+  /* Espaçamento entre as letras */
+}
+
+.gallery {
+  display: flex;
+  /* Define um contêiner flexível */
+  gap: 5px;
+  /* Espaçamento entre os elementos */
+  align-self: center;
+  /* Alinhamento do conteúdo no centro */
+  align-content: center;
+  /* Alinhamento do conteúdo no centro */
+  min-width: 85vw;
+  /* Largura mínima de 85% da largura da janela de visualização */
+  height: 60vmin;
+  /* Altura de 60% da altura da janela de visualização */
+  padding: 10px;
+  /* Preenchimento */
+  margin: 10px;
+  /* Margem */
+}
+
+.gallery img {
+  height: 100%;
+  /* Altura 100% */
+  flex: 1;
+  /* Crescimento flexível */
+  object-fit: cover;
+  /* Ajuste da imagem para cobrir o contêiner */
+  overflow: hidden;
+  /* Oculta qualquer parte da imagem que estiver fora do contêiner */
+  cursor: pointer;
+  /* Cursor ao passar o mouse */
+  border-radius: 10px;
+  /* Raio da borda */
+  transition: all 0.3s;
+  /* Transição de todas as propriedades durante 0.3 segundos */
+}
+
+.gallery img:hover {
+  flex: 2;
+  /* Aumenta o tamanho da imagem quando o mouse está sobre ela */
+}

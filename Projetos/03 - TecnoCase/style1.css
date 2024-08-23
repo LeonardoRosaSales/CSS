@@ -1,0 +1,119 @@
+* {
+    margin: 0; /* Define a margem para 0 */
+    padding: 0; /* Define o preenchimento para 0 */
+}
+
+body {
+    background-color: #260041; /* Define a cor de fundo */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a família da fonte */
+}
+
+.branco {
+    color: #fdffff; /* Define a cor do texto para branco */
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #260041, #07024d, #260041); /* Define uma imagem de fundo com gradiente linear */
+    padding: 15px; /* Adiciona preenchimento */
+    text-align: center; /* Centraliza o texto */
+}
+
+.menu, 
+.logo {
+    padding: 10px; /* Adiciona preenchimento */
+}
+
+a{
+    text-decoration: none; /* Remove a decoração do texto */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: aliceblue; /* Define a cor do texto */
+}
+
+.post p {
+    margin: 10px 0; /* Define a margem superior e inferior */
+    color: lightblue; /* Define a cor do texto */
+}
+
+.menu a, .menu a:visited {
+    color: crimson; /* Define a cor do texto */
+    text-decoration: none; /* Remove a decoração do texto */
+    padding: 8px 15px; /* Adiciona preenchimento */
+}
+.menu a:hover {
+    background-color: crimson; /* Define a cor de fundo ao passar o mouse */
+    color: #260041; /* Define a cor do texto ao passar o mouse */
+    border-radius: 12px; /* Adiciona borda arredondada */
+}
+
+.container {
+    width: 920px; /* Define a largura */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona preenchimento */
+}
+
+.posts {
+    width: 660px; /* Define a largura */
+    float: left; /* Faz o elemento flutuar para a esquerda */
+}
+
+.post {
+    padding: 20px; /* Adiciona preenchimento */
+    margin-bottom: 10px; /* Define a margem inferior */
+    background-color: #090269; /* Define a cor de fundo */
+    border-radius: 20px; /* Adiciona borda arredondada */
+}
+
+img {
+    border-radius: 12px; /* Adiciona borda arredondada */
+}
+
+h2 {
+    color: aliceblue; /* Define a cor do texto */
+}
+
+.data-post {
+    font-size: 0.8em; /* Define o tamanho da fonte */
+    color: aliceblue; /* Define a cor do texto */
+    margin-bottom: 15px; /* Define a margem inferior */
+    display: block; /* Define o elemento como bloco */
+}
+.barra-lateral {
+    width: 240px; /* Define a largura */
+    float: right; /* Faz o elemento flutuar para a direita */
+}
+
+.conteudo-lateral {
+    background-color: #090269; /* Define a cor de fundo */
+    border-radius: 10px; /* Adiciona borda arredondada */
+    padding: 10px; /* Adiciona preenchimento */
+    margin-bottom: 10px; /* Define a margem inferior */
+}
+
+.conteudo-lateral h3 {
+    background-color: crimson; /* Define a cor de fundo */
+    color: aliceblue; /* Define a cor do texto */
+    padding: 5px; /* Adiciona preenchimento */
+    border-radius: 10px; /* Adiciona borda arredondada */
+}
+
+.post-destaque {
+    font-size: 0.8em; /* Define o tamanho da fonte */
+    padding: 5px; /* Adiciona preenchimento */
+    color: lightblue; /* Define a cor do texto */
+    border-bottom: 1px solid lightgray; /* Adiciona uma borda inferior */
+}
+
+.post-destaque:last-child {
+    border: none; /* Remove a borda do último filho */
+}
+
+.footer {
+    clear: both; /* Limpa o flutuador */
+    background-image: linear-gradient(to bottom, #260041, #07024d, #260041); /* Define uma imagem de fundo com gradiente linear */
+    padding: 15px; /* Adiciona preenchimento */
+}
+
+.footer p {
+    color: aliceblue; /* Define a cor do texto */
+    text-align: center; /* Centraliza o texto */
+}

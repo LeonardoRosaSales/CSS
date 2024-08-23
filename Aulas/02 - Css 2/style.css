@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.quadrado {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+  
+.circulo {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 115px;
+}
+  
+.cirdrado {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 45% 15%;
+    position: relative;
+    left: 230px;
+    bottom: 230px;
+}
+  
+.triangulo {
+    background: blue;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightblue;
+    position: relative;
+    left: 350px;
+    bottom: 350px;
+}
+  
+.triangulo2 {
+    background: blue;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid red;
+    position: relative;
+    left: 490px;
+    bottom: 450px;
+}

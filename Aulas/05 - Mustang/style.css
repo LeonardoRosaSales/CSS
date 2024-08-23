@@ -1,0 +1,161 @@
+/* Importa a fonte 'Intel' do Google Fonts com diferentes pesos */
+@import url("https://fonts.googleapis.com/css?family=Intel:wght@300;400;600&display=swap");
+
+/* Define estilos básicos para todas as tags HTML */
+* {
+  margin: 0;
+  /* Define margem zero */
+  padding: 0;
+  /* Define preenchimento zero */
+  box-sizing: border-box;
+  /* Define a caixa de modelo como 'border-box' para incluir o preenchimento e a borda no tamanho total do elemento */
+}
+
+/* Estilos para o corpo da página */
+body {
+  height: 100vh;
+  /* Define a altura do corpo como 100% da altura da tela */
+  background-color: #030b03;
+  /* Define a cor de fundo */
+  display: grid;
+  /* Usa um layout de grid */
+  place-items: center;
+  /* Centraliza os itens dentro do grid */
+  font-family: "Intel", sans-serif;
+  /* Define a fonte do texto */
+  color: white;
+  /* Define a cor do texto */
+}
+
+/* Estilos para a classe 'card' */
+.card {
+  width: 400px;
+  /* Define a largura */
+  aspect-ratio: 1 / 0.7;
+  /* Define a proporção da largura para a altura */
+  border-radius: 8px;
+  /* Define o raio da borda */
+  position: relative;
+  /* Define a posição como relativa */
+  cursor: pointer;
+  /* Altera o cursor para indicar interatividade */
+}
+
+/* Estilos para a classe 'image-box' dentro de '.card' */
+.card .image-box {
+  width: 100%;
+  /* Define a largura */
+  height: 100%;
+  /* Define a altura */
+  border-radius: inherit;
+  /* Herda o raio da borda do elemento pai */
+}
+
+/* Estilos para imagens dentro de '.card .image-box' */
+.card .image-box img {
+  width: 100%;
+  /* Define a largura */
+  height: 100%;
+  /* Define a altura */
+  object-fit: cover;
+  /* Define como a imagem deve se ajustar dentro do elemento */
+  object-position: 50% 90%;
+  /* Define a posição da imagem dentro do elemento */
+  border-radius: inherit;
+  /* Herda o raio da borda do elemento pai */
+  transition: 0.5s ease-in-out;
+  /* Adiciona uma transição suave */
+}
+
+/* Estilos para a pseudo-classe ':after' de '.card' */
+.card:after {
+  content: "";
+  /* Adiciona um conteúdo vazio */
+  position: absolute;
+  /* Define a posição absoluta */
+  inset: 0;
+  /* Define as distâncias superior, direita, inferior e esquerda como 0 */
+  border: 2px solid white;
+  /* Define uma borda */
+  border-radius: inherit;
+  /* Herda o raio da borda do elemento pai */
+  opacity: 0;
+  /* Define a opacidade como 0 */
+  transition: 0.4s ease-in-out;
+  /* Adiciona uma transição suave */
+}
+
+/* Estilos quando o mouse passa por cima de '.card img' */
+.card:hover img {
+  filter: grayscale(1) brightness(0.4);
+  /* Aplica efeitos de filtro */
+}
+
+/* Estilos quando o mouse passa por cima de '.card' */
+.card:hover::after {
+  opacity: 1;
+  /* Define a opacidade como 1 */
+  inset: 20px;
+  /* Define as distâncias superior, direita, inferior e esquerda como 20px */
+}
+
+/* Estilos para a classe 'content' */
+.content {
+  width: 80%;
+  /* Define a largura */
+  position: absolute;
+  /* Define a posição como absoluta */
+  top: 50%;
+  /* Define a posição superior como 50% */
+  left: 50%;
+  /* Define a posição esquerda como 50% */
+  transform: translate(-50%, -50%);
+  /* Move o elemento para o centro */
+  text-align: center;
+  /* Alinha o texto ao centro */
+}
+
+/* Estilos para os elementos h2 e p dentro de '.content' */
+.content h2,
+.content p {
+  opacity: 0;
+  /* Define a opacidade como 0 */
+  transition: 0.4s 0.2s ease;
+  /* Adiciona uma transição suave com atraso */
+}
+
+/* Estilos para o elemento h2 dentro de '.content' */
+.content h2 {
+  margin-bottom: 12px;
+  /* Define a margem inferior */
+  scale: 0.7;
+  /* Define a escala como 0.7 */
+}
+
+/* Estilos para o elemento p dentro de '.content' */
+.content p {
+  font-size: 14px;
+  /* Define o tamanho da fonte */
+  line-height: 1.5;
+  /* Define a altura da linha */
+  color: #d1d1d1;
+  /* Define a cor do texto */
+  transform: translate(50%);
+  /* Move o elemento para a direita */
+}
+
+/* Estilos quando o mouse passa por cima de '.card .content h2' */
+.card:hover .content h2 {
+  scale: 1;
+  /* Define a escala como 1 */
+  opacity: 1;
+  /* Define a opacidade como 1 */
+}
+
+/* Estilos quando o mouse passa por cima de '.card .content p' */
+.card:hover .content p {
+  opacity: 1;
+  /* Define a opacidade como 1 */
+  transform: translate(0);
+  /* Remove a transformação */
+}

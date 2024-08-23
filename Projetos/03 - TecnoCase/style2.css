@@ -1,0 +1,90 @@
+* {
+    margin: 0; /* Define margem zero para todos os elementos */
+    padding: 0; /* Define preenchimento zero para todos os elementos */
+}
+
+body {
+    background-color: #07024d; /* Define a cor de fundo para o corpo da página */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a família de fontes para o corpo da página */
+}
+
+.branco {
+    color: #fdffff; /* Define a cor do texto para branco */
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #07024d, #260041, #07024d); /* Define uma imagem de fundo gradiente para o cabeçalho */
+    padding: 15px; /* Adiciona um preenchimento de 15px ao cabeçalho */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+}
+
+.menu, 
+.logo {
+    padding: 10px; /* Adiciona um preenchimento de 10px para o menu e o logo */
+}
+
+a{
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Define a espessura da fonte como negrito para os links */
+    color: aliceblue; /* Define a cor do texto para azul claro */
+}
+
+.menu a, .menu a:visited {
+    color: crimson; /* Define a cor dos links no menu como carmesim */
+    text-decoration: none; /* Remove o sublinhado dos links visitados no menu */
+    padding: 8px 15px; /* Adiciona preenchimento aos links no menu */
+}
+.menu a:hover {
+    background-color: crimson; /* Define a cor de fundo ao passar o mouse sobre os links no menu */
+    color: #260041; /* Altera a cor do texto ao passar o mouse sobre os links no menu */
+    border-radius: 12px; /* Adiciona borda arredondada aos links no menu */
+}
+
+section {
+    display: flex; /* Define a exibição flexível para a seção */
+    align-items: center; /* Alinha os itens verticalmente no centro da seção */
+    justify-content: center; /* Alinha os itens horizontalmente no centro da seção */
+    height: 80vh; /* Define a altura da seção como 80% da altura da janela de visualização */
+}
+form {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes para o formulário */
+}
+
+form div {
+    display: flex; /* Define a exibição flexível para as divisões dentro do formulário */
+    flex-direction: column; /* Define a direção da flexão como coluna para as divisões dentro do formulário */
+    margin-bottom: 15px; /* Adiciona margem inferior de 15px para as divisões dentro do formulário */
+}
+
+form input,
+form textarea {
+    outline: unset; /* Remove o contorno padrão dos campos de entrada e da área de texto */
+    padding: 15px; /* Adiciona preenchimento de 15px aos campos de entrada e à área de texto */
+    width: 300px; /* Define a largura dos campos de entrada e da área de texto como 300px */
+    border: 1px solid #260041; /* Define uma borda sólida de 1px com a cor #260041 */
+    border-radius: 12px; /* Adiciona borda arredondada aos campos de entrada e à área de texto */
+}
+
+#enviar {
+    background-color: crimson; /* Define a cor de fundo do botão de envio como carmesim */
+    color: aliceblue; /* Define a cor do texto do botão de envio como azul claro */
+    cursor: pointer; /* Altera o cursor para ponteiro ao passar o mouse sobre o botão de envio */
+    padding: 20px; /* Adiciona preenchimento de 20px ao botão de envio */
+    border-radius: 12px; /* Adiciona borda arredondada ao botão de envio */
+}
+
+form label {
+    margin-left: 10px; /* Adiciona margem à esquerda para os rótulos dentro do formulário */
+    color: lightblue; /* Define a cor do texto dos rótulos como azul claro */
+}
+
+.footer {
+    clear: both; /* Limpa os floats dentro do rodapé */
+    background-image: linear-gradient(to bottom, #07024d, #260041, #07024d); /* Define uma imagem de fundo gradiente para o rodapé */
+    padding: 15px; /* Adiciona preenchimento de 15px ao rodapé */
+}
+
+.footer p {
+    color: aliceblue; /* Define a cor do texto do rodapé como azul claro */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+}

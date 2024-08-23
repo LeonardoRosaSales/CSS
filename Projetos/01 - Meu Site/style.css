@@ -1,0 +1,58 @@
+/* Estilos para o corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte para todo o corpo da página */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    background-color: #faf8f8; /* Define a cor de fundo do corpo */
+    color: #0c0c0c; /* Define a cor do texto do corpo */
+}
+
+/* Estilos para o cabeçalho e rodapé */
+header,
+footer{
+    background-color: #0804f8; /* Define a cor de fundo do cabeçalho e rodapé */
+    color: #f4f4f4; /* Define a cor do texto do cabeçalho e rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem; /* Adiciona preenchimento interno */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a fonte do cabeçalho e rodapé */
+}
+
+/* Estilos para a navegação */
+nav{
+    background-color: #00025c; /* Define a cor de fundo da navegação */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0.9rem; /* Adiciona preenchimento interno */
+}
+
+nav a{
+    color: #f4f4f4; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove a decoração do link */
+    padding: 0.5em 1em; /* Adiciona preenchimento ao redor do texto */
+    margin-right: 15px; /* Adiciona margem à direita dos links */
+    display: inline-block; /* Exibe os links em linha */
+}
+
+nav a:hover{
+    background-color: #f85f06; /* Define a cor de fundo ao passar o mouse sobre o link */
+    color: #0804f8; /* Define a cor do texto ao passar o mouse sobre o link */
+    border-radius: 25px; /* Adiciona arredondamento às bordas */
+}
+
+/* Estilos para as seções */
+section{
+    padding: 20px; /* Adiciona preenchimento interno */
+}
+
+/* Estilos para imagens */
+img{
+    max-width: 100%; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 25%; /* Adiciona arredondamento às bordas */
+}
+
+/* Estilos para marcações de texto */
+mark{
+    background-color: #04f818; /* Define a cor de fundo da marcação de texto */
+    color: #000a5f; /* Define a cor do texto dentro da marcação */
+    border-radius: 15%; /* Adiciona arredondamento às bordas */
+}

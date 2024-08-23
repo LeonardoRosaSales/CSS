@@ -1,0 +1,68 @@
+/* Define estilos básicos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte para o corpo da página */
+    margin: 0;
+    /* Remove as margens padrão */
+    padding: 0;
+    /* Remove os preenchimentos padrão */
+    background-color: #f4f4f4;
+    /* Define a cor de fundo */
+}
+  
+  /* Estilos para o cabeçalho e o rodapé */
+header,
+footer {
+    background-color: #333;
+    /* Define a cor de fundo */
+    color: #fff;
+    /* Define a cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 1em;
+    /* Adiciona preenchimento interno */
+}
+  
+  /* Estilos para a barra de navegação */
+nav {
+    background-color: #444;
+    /* Define a cor de fundo */
+    padding: 0.5em;
+    /* Adiciona preenchimento interno */
+    text-align: center;
+    /* Alinha o texto ao centro */
+}
+  
+  /* Estilos para os links de navegação */
+nav a {
+    color: #fff;
+    /* Define a cor do texto */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão */
+    padding: 0.5em 1em;
+    /* Adiciona preenchimento interno */
+    margin-right: 10px;
+    /* Adiciona margem à direita */
+    display: inline-block;
+    /* Define os links como elementos de bloco em linha */
+}
+  
+  /* Estilos para os links de navegação quando hover */
+nav a:hover {
+    background-color: #555;
+    /* Define a cor de fundo ao passar o mouse */
+}
+  
+  /* Estilos para as seções da página */
+section {
+    padding: 20px;
+    /* Adiciona preenchimento interno */
+}
+  
+  /* Estilos para as imagens */
+img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}

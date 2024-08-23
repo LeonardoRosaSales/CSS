@@ -1,0 +1,59 @@
+/* Define estilos básicos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte para o corpo da página */
+    margin: 0;
+    /* Remove as margens padrão */
+    padding: 0;
+    /* Remove os preenchimentos padrão */
+    background-color: #f4f4f4;
+    /* Define a cor de fundo */
+  }
+  
+  /* Estilos para o cabeçalho */
+  header,
+  footer {
+    background-color: rgb(18, 142, 243);
+    /* Define a cor de fundo */
+    color: #fff;
+    /* Define a cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 1em;
+    /* Adiciona preenchimento interno */
+  }
+  
+  header:hover {
+    background-color: pink;
+    color: red;
+  }
+  
+  /* Estilos para a barra de navegação */
+  nav {
+    background-color: #5ac8f3;
+    /* Define a cor de fundo */
+    display: flex;
+    /* Transforma os elementos em um flex container */
+    justify-content: center;
+    /* Alinha os itens ao centro horizontalmente */
+  }
+  
+  /* Estilos para os links de navegação */
+  nav a {
+    color: #fff;
+    /* Define a cor do texto */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão */
+    padding: 10px;
+    /* Adiciona preenchimento interno */
+    margin: 0 10px;
+    /* Adiciona margem à direita e à esquerda */
+  }
+  
+  /* Estilos para os links de navegação quando hover */
+  nav a:hover {
+    background-color: cornflowerblue;
+    /* Define a cor de fundo ao passar o mouse */
+    color: whitesmoke;
+    /* Define a cor do texto ao passar o mouse */
+  }

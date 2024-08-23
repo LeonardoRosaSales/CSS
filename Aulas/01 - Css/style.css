@@ -1,0 +1,47 @@
+.centro {
+    /* Alinha o texto no centro, a direita e a esquerda */
+    text-align: center;
+    /* tag de tamanho de fonte */
+    font-size: 60px;
+    /* cor do texto azul */
+    color: blue;
+    /* tag para decorar o texto com uma linha embaixo */
+    text-decoration-line: underline;
+}
+  
+.direita {
+    text-align: right;
+    font-size: 40px;
+    color: green;
+    text-decoration: overline;
+}
+  
+.esquerda {
+    text-align: left;
+    font-size: 30px;
+    color: red;
+    text-decoration-line: line-through;
+}
+  
+.gradient {
+    background-image: linear-gradient(to bottom, yellow, green, red);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+  
+.single-color {
+    color: steelblue;
+}
+  
+.gradients {
+    background-image: linear-gradient(to bottom, yellow, purple, black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+}

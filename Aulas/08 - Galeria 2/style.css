@@ -1,0 +1,56 @@
+/* Importando a fonte "Bree Serif" do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/* Configuração universal para todos os elementos */
+* {
+  box-sizing: border-box; /* Define a modelagem de caixa como border-box para todos os elementos */
+}
+
+/* Estilos para o elemento <body> */
+body {
+  margin: 0; /* Remove margens padrão do corpo da página */
+  padding: 0; /* Remove preenchimento padrão do corpo da página */
+  top: 0; /* Posicionamento superior definido como 0 */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: #131313; /* Define a cor de fundo como um tom de cinza escuro */
+}
+
+/* Estilos para o elemento <h1> */
+h1 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  display: grid; /* Define o elemento como um grid */
+  /* padding-top: 100px; */ /* Comentado (não ativo) - Adicionar preenchimento superior */
+  font-family: "Bree Serif", serif; /* Define a fonte do texto */
+  font-size: 3em; /* Define o tamanho da fonte como 3em (relativo) */
+  color: antiquewhite; /* Define a cor do texto como "antiquewhite" (um tom de branco) */
+  letter-spacing: 5px; /* Adiciona espaçamento entre as letras */
+}
+
+/* Estilos para a classe "gallery" */
+.gallery {
+  align-self: center; /* Centraliza o elemento verticalmente dentro do seu contêiner */
+  align-content: center; /* Centraliza o conteúdo verticalmente */
+  min-width: 85vw; /* Define a largura mínima como 85% da largura da janela de visualização */
+  height: 60vmin; /* Define a altura como 60% do tamanho da janela de visualização (menor dimensão) */
+  display: flex; /* Define a exibição como um flex container */
+  gap: 5px; /* Define um espaço de 5px entre os elementos filhos */
+  padding: 10px; /* Adiciona preenchimento interno de 10px */
+  margin: 10px; /* Adiciona margem externa de 10px */
+}
+
+/* Estilos para imagens dentro da classe "gallery" */
+.gallery img {
+  height: 100%; /* Define a altura da imagem como 100% do seu contêiner */
+  flex: 1; /* Distribui o espaço disponível igualmente entre as imagens */
+  object-fit: cover; /* Mantém a proporção da imagem e a ajusta para cobrir o contêiner */
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa os limites do contêiner */
+  cursor: pointer; /* Muda o cursor para uma mãozinha quando você passa o mouse sobre as imagens */
+  border-radius: 10px; /* Adiciona cantos arredondados com um raio de 10px */
+  transition: all 0.3s; /* Adiciona uma transição suave de 0.3 segundos em todas as propriedades animadas */
+}
+
+/* Estilos para imagens na classe "gallery" quando hover */
+.gallery img:hover {
+  flex: 4; /* Aumenta o tamanho da imagem quando o mouse passa sobre ela */
+}

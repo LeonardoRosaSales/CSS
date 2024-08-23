@@ -1,0 +1,32 @@
+body {
+  margin: 6rem 29rem; /* Margem de 6rem na parte superior e inferior e 29rem nas laterais */
+  display: flex; /* Define um contêiner flexível */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  padding: 12rem; /* Preenchimento de 12rem */
+  background-image: linear-gradient(to bottom, #260041, #050139, #022b3a); /* Imagem de fundo com gradiente linear */
+  height: 150px; /* Altura de 150px */
+}
+
+a {
+  text-decoration: none; /* Remove a decoração do texto */
+  font-size: 80px; /* Tamanho da fonte de 80 pixels */
+  color: #09bde6; /* Cor do texto */
+}
+
+#button {
+  width: 25rem; /* Largura de 25rem */
+  cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
+  border: none; /* Sem borda */
+  border-radius: 12px; /* Raio da borda de 12 pixels */
+  background: linear-gradient(#260041, #022b3a, #050139); /* Fundo com gradiente linear */
+  padding: 1rem 3rem; /* Preenchimento de 1rem na parte superior e inferior e 3rem nas laterais */
+  color: #fefefe; /* Cor do texto */
+  font-size: 1.5rem; /* Tamanho da fonte de 1.5 rem */
+}
+
+#button:hover {
+  color: #f50707; /* Cor do texto ao passar o mouse sobre o botão */
+  text-shadow: 0px 2px 5px #041b91; /* Sombra do texto */
+  box-shadow: 0px 0px 50px #0703ff, 0px 0px 90px #3932f9, 0px 0px 70px #5048f9, 0px 0px 70px #5f5ae9; /* Sombra do botão */
+}

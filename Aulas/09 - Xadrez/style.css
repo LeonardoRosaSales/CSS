@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+}
+.borda{
+    border: 2px solid black;
+    height: 450px;
+    width: 550px;
+}
+.part1{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.quad1{
+    border: 1px solid black;
+    background-color: black;
+    width: 74px;
+    height: 54px;
+}
+.quad2{
+    border: 1px solid black;
+    background-color: white;
+    width: 74px;
+    height: 54px;
+}
+.part2 {
+    position: absolute;
+    top: 2px;
+    left: 79px;
+    border: 1px solid black;
+}
+.quad3{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
+.quad4{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.part3 {
+    position: absolute;
+    top: 2px;
+    left: 158px;
+    border: 1px solid black;
+}
+.quad5{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.quad6{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
+.part4 {
+    position: absolute;
+    top: 2px;
+    left: 237px;
+    border: 1px solid black;
+}
+.quad7{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
+.quad8{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.part5 {
+    position: absolute;
+    top: 2px;
+    left: 316px;
+    border: 1px solid black;
+}
+.quad9{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.quad10{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
+.part6 {
+    position: absolute;
+    top: 2px;
+    left: 394px;
+    border: 1px solid black;
+}
+.quad11{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
+.quad12{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.part7 {
+    position: absolute;
+    top: 2px;
+    left: 473px;
+    border: 1px solid black;
+}
+.quad13{
+    border: 1px solid black;
+    background-color: black;
+    width: 75px;
+    height: 54px;
+}
+.quad14{
+    border: 1px solid black;
+    background-color: white;
+    width: 75px;
+    height: 54px;
+}
